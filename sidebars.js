@@ -1,0 +1,32 @@
+module.exports = {
+  someSidebar: {
+    Introdução: ['int'],
+    'Formação Base': [
+      'FBase/clc5',
+      'FBase/clc6',
+      'FBase/clc7',
+      'FBase/lei',
+      'FBase/lec',
+      'FBase/cp1',
+      'FBase/cp4',
+      'FBase/cp5',
+      'FBase/stc5',
+      'FBase/stc6',
+      'FBase/stc7',
+    ],
+    'Formação Tecnológica': [
+      'FTec/u0348',
+      'FTec/u0349',
+      'FTec/u0350',
+      'FTec/u0353',
+      'FTec/u0354',
+      'FTec/u0355',
+      'FTec/u0357',
+      'FTec/u0361',
+      'FTec/u0362',
+      'FTec/u0363',
+      'FTec/u0364',
+      'FTec/u0366',
+    ],
+  },
+};
