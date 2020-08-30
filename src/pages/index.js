@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: <></>,
-    imageUrl: 'img/UE.png',
+    imageUrl: 'img/UEv2.png',
     description: <></>,
   },
 ];
@@ -45,7 +45,7 @@ function Home() {
   return (
     <Layout
       title={`Daniel Figueira - ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Portfólio Reflexivo de Aprendizagem de Daniel Figueira"
     >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">

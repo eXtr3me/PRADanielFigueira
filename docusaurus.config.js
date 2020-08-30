@@ -21,12 +21,12 @@ module.exports = {
           label: 'UFCDs',
           position: 'left',
         },
-        /* { to: 'blog', label: 'Blog', position: 'left' },
+        { to: 'blog', label: 'Testemunhos', position: 'right' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
-          position: 'right',
-        }, */
+          position: 'left',
+        },
       ],
     },
     footer: {
@@ -84,7 +84,7 @@ module.exports = {
           homePageId: 'int',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/eXtr3me/PRADanielFigueira',
+          editUrl: 'https://github.com/eXtr3me/PRADanielFigueira/blob/master',
         },
         blog: {
           showReadingTime: true,
