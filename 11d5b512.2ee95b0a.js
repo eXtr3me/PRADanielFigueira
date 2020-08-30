@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{59:function(a){a.exports=JSON.parse('{"allTagsPath":"/PRADanielFigueira/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/PRADanielFigueira/blog/tags/hola"}')}}]);
