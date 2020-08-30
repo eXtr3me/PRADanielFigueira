@@ -12,7 +12,7 @@ module.exports = {
       title: 'PRA Daniel Figueira',
       logo: {
         alt: 'PRA Daniel Figueira',
-        src: 'img/iefp.gif',
+        src: 'img/iefp.png',
       },
       items: [
         {
@@ -23,8 +23,8 @@ module.exports = {
         },
         { to: 'blog', label: 'Testemunhos', position: 'right' },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          to: 'hello',
+          label: 'Sobre mim',
           position: 'left',
         },
       ],

@@ -9,6 +9,11 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <></>,
+    imageUrl: 'img/iefp_2.png',
+    description: <></>,
+  },
+  {
+    title: <></>,
     imageUrl: 'img/poch.png',
     description: <></>,
   },
@@ -27,7 +32,7 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--3', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
