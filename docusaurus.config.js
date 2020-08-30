@@ -32,7 +32,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
+        /* {
           title: 'Docs',
           items: [
             {
@@ -44,7 +44,7 @@ module.exports = {
               to: 'docs/doc2/',
             },
           ],
-        },
+        }, */
         {
           title: 'Social',
           items: [
@@ -59,15 +59,11 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'Mais',
           items: [
             {
-              label: 'Blog',
+              label: 'Testemunhos',
               to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
