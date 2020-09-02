@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Introdução: ['int'],
+    Formação: ['int'],
     'Formação Base': [
       'FBase/clc5',
       'FBase/clc6',
@@ -41,5 +41,6 @@ module.exports = {
       'FTec/u8606',
       'FTec/u9855',
     ],
+    FPCT: ['fpct'],
   },
 };

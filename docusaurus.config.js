@@ -8,7 +8,15 @@ module.exports = {
   organizationName: 'eXtr3me', // Usually your GitHub org/user name.
   projectName: 'PRADanielFigueira', // Usually your repo name.
   themeConfig: {
+    image: 'img/iefp.jpg',
+    announcementBar: {
+      id: 'dev', // Any value that will identify this message.
+      content: 'Este projeto está em fase de desenvolvimento',
+      backgroundColor: '#fafbfc', // Defaults to `#fff`.
+      textColor: '#091E42', // Defaults to `#000`.
+    },
     navbar: {
+      hideOnScroll: true,
       title: 'PRA Daniel Figueira',
       logo: {
         alt: 'PRA Daniel Figueira',
@@ -23,9 +31,19 @@ module.exports = {
         },
         { to: 'blog', label: 'Testemunhos', position: 'right' },
         {
-          to: 'hello',
           label: 'Sobre mim',
           position: 'left',
+          items: [
+            {
+              label: 'Motivações',
+              to: 'hello',
+            },
+            {
+              label: 'Curriculum Vitae',
+              to: 'hello',
+            },
+            // ... more items
+          ],
         },
       ],
     },
