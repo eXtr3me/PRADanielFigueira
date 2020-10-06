@@ -36,6 +36,7 @@ module.exports = {
       'FTec/u3836',
       'FTec/u3839',
       'FTec/u7842',
+      'FTec/u7843',
       'FTec/u7851',
       'FTec/u7854',
       'FTec/u8606',

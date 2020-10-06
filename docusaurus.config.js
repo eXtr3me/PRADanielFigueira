@@ -24,27 +24,27 @@ module.exports = {
       },
       items: [
         {
+          label: 'Sobre mim',
+          position: 'left',
+          items: [
+            {
+              label: 'Motivações',
+              to: '#',
+            },
+            {
+              label: 'Curriculum Vitae',
+              to: 'https://eXtr3me.github.io',
+            },
+            // ... more items
+          ],
+        },
+        {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'UFCDs',
           position: 'left',
         },
         { to: 'blog', label: 'Testemunhos', position: 'right' },
-        {
-          label: 'Sobre mim',
-          position: 'left',
-          items: [
-            {
-              label: 'Motivações',
-              to: 'hello',
-            },
-            {
-              label: 'Curriculum Vitae',
-              to: 'hello',
-            },
-            // ... more items
-          ],
-        },
       ],
     },
     footer: {

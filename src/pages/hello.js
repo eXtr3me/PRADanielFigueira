@@ -13,9 +13,14 @@ function Hello() {
           fontSize: '20px',
         }}
       >
-        <p>
-          Edit <code>pages/hello.js</code> and save to reload.
-        </p>
+        <img
+          src="img/DanielFigueira.png"
+          style={{
+            width: '150px',
+            border: 'solid 3px',
+            borderRadius: '1000px',
+          }}
+        />
       </div>
     </Layout>
   );
